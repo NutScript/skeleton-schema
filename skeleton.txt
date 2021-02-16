@@ -1,0 +1,7 @@
+"skeleton"
+{
+	"base"		"nutscript"
+	"title"		"Skeleton"
+	"author"	"Zoephix"
+	"menusystem" "1"
+}
