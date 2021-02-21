@@ -8,7 +8,7 @@ CLASS.faction = FACTION_CUSTOM
 -- A function to return whether the player can use the class
 function CLASS:onCanBe(client)
 	-- Check if the client has the required flags for this faction
-	if (client:getChar():hasFlags("B")) then
+	if (client:getChar():hasFlags("C")) then
 		return true
 	end
 end
