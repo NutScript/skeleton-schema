@@ -1,4 +1,4 @@
 # Skeleton Schema
 Skeleton schema for [NutScript 1.2](https://github.com/Nutscript/NutScript)
 
-This repository is a fork from https://github.com/ts-co/sample-schema
+This repository is a fork from Pilot's NutScript 1.1 sample schema https://github.com/ts-co/sample-schema
