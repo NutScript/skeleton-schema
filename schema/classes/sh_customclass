@@ -1,0 +1,18 @@
+-- Set the display name for this class
+CLASS.name = "Custom Boss"
+-- Set the description for this class
+CLASS.desc = "Custom class for the custom faction."
+-- Which faction this class belongs to
+CLASS.faction = FACTION_CUSTOM
+
+-- A function to return whether the player can use the class
+function CLASS:onCanBe(client)
+	-- Check if the client has the required flags for this faction
+	if (client:getChar():hasFlags("B")) then
+		return true
+	end
+end
+
+-- Set a unique identifier for this class,
+-- this is used when deriving the class from the player.
+CLASS_CUSTOM = CLASS.index
