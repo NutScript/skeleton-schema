@@ -13,7 +13,7 @@ SCHEMA.desc = "A template project to kickstart schema development."
 nut.currency.set("$", "dollar", "dollars")
 
 -- Custom flag, flags are used to give access to certain restrictions.
-nut.flag.add("B", "Gives access to the Swag Boss class.")
+nut.flag.add("C", "Gives access to the custom class.")
 
 -- Additional files that aren't auto-included should be included here using nut.util.include,
 -- while doing so make sure that the file has the proper naming scheme.
