@@ -1,4 +1,4 @@
 -- Disable spraying
 function SCHEMA:PlayerSpray()
-	return false
+	return true
 end
