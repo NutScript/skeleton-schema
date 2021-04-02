@@ -3,5 +3,6 @@
 	"base"		"nutscript"
 	"title"		"Skeleton"
 	"author"	"Zoephix"
-	"menusystem" "1"
+	"menusystem" 	"1"
+	"category"	"rp"
 }
